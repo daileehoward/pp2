@@ -17,14 +17,11 @@
 <?php
     $numbers= array(7, 9, 8, 9, 8, 8, 6);
 
-    function printArr($array)
-    {
-        foreach ($array as $item)
-        {
-            echo "<p>$item</p>";
-        }
-    }
-
     printArr($numbers);
+?>
+
+<!-- Step 3 -->
+<?php
+    include("functions.php");
 ?>
 
